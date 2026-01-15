@@ -1,0 +1,6 @@
+Copyright (c) 2026 Epic Labs 23
+
+This software is proprietary.
+You may use this software according to the terms provided
+by the author. Redistribution, modification, or reverse
+engineering is prohibited without permission.
