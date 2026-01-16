@@ -4,8 +4,6 @@
 
 ## Free and powerful shared hosting solution
 
-[![Discord](https://img.shields.io/discord/1461575705715277950?label=Join%20Discord&logo=discord)](https://discord.gg/Bvzb5BXm)
-
 ### Highlights
 
 - Run any programming language on your shared server
@@ -86,3 +84,17 @@ https://docs.ecpanel.io/ehm/ehm-install
 ### Detail documentation
 
 https://docs.ecpanel.io/intro
+
+### Bug reports
+
+https://github.com/EpicLabs23/ecp-ehm-free/issues
+
+### Discussion, Support, Ideas
+
+https://github.com/EpicLabs23/ecp-ehm-free/discussions
+
+### Installation and Customization
+
+Whatsapp: +8801670603332
+
+Email: nahidacm[at]gmail[dot]com
