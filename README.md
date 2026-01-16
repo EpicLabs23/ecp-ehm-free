@@ -1,7 +1,6 @@
 # EHM and ECP
 
-<img src="assets/images/ecp-logo.png" alt="Epic Contol Panel" width="150"/>
-<img src="assets/images/ehm-logo.png" alt="Epic Hosting Manager" width="150"/>
+<img src="assets/images/ecp-logo.png" alt="Epic Contol Panel" width="150"/><img src="assets/images/ehm-logo.png" alt="Epic Hosting Manager" width="150"/>
 
 ## Free and powerful shared hosting solution
 
