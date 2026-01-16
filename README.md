@@ -4,6 +4,8 @@
 
 ## Free and powerful shared hosting solution
 
+[![Discord](https://img.shields.io/discord/1461575705715277950?label=Join%20Discord&logo=discord)](https://discord.gg/Bvzb5BXm)
+
 ### Highlights
 
 - Run any programming language on your shared server
