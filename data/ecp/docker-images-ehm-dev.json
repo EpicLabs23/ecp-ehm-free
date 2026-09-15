@@ -57,8 +57,8 @@
     "title": "ECP go Dev",
     "code": "ecp-go-dev",
     "image_name": "nahidacm/ecp-go-dev",
-    "image_tags": ["1.1.3", "1.1.2"],
-    "php_versions": ["7.3", "8.1", "8.4"],
+    "image_tags": ["1.1.3", "1.1.2", "1.2.0"],
+    "php_versions": ["8.1", "8.3", "8.4"],
     "is_default": false,
     "is_mounted": true
   }
