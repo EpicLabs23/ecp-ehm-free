@@ -12,7 +12,7 @@
     "title": "Managed WordPress Hosting",
     "code": "managed-wordpress",
     "image_name": "nahidacm/managed-wordpress",
-    "image_tags": ["1.0.0"],
+    "image_tags": ["1.0.1"],
     "php_versions": ["8.1", "8.3", "8.4"],
     "is_default": false,
     "is_mounted": false
