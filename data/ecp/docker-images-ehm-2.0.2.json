@@ -1,0 +1,11 @@
+[
+  {
+    "title": "ECP Base",
+    "code": "ecp-base",
+    "image_name": "nahidacm/ecp-base",
+    "image_tags": ["2.0.0"],
+    "php_versions": ["8.1", "8.3", "8.4"],
+    "is_default": true,
+    "is_mounted": false
+  }
+]
