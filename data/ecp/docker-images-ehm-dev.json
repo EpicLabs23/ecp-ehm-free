@@ -4,6 +4,7 @@
     "code": "ecp-base",
     "image_name": "nahidacm/ecp-base",
     "image_tags": ["2.0.2"],
+    "release_dates": {"2.0.2": "2026-10-01"},
     "php_versions": ["8.1", "8.3", "8.4"],
     "is_default": true,
     "is_mounted": false
@@ -13,6 +14,7 @@
     "code": "managed-wordpress",
     "image_name": "nahidacm/managed-wordpress",
     "image_tags": ["1.0.1"],
+    "release_dates": {"1.0.1": "2026-09-17"},
     "php_versions": ["8.1", "8.3", "8.4"],
     "is_default": false,
     "is_mounted": false
@@ -22,6 +24,7 @@
     "code": "dotnet-6",
     "image_name": "nahidacm/dotnet-6",
     "image_tags": ["2.0.0"],
+    "release_dates": {"2.0.0": "2026-10-01"},
     "php_versions": ["8.1", "8.3", "8.4"],
     "is_default": false,
     "is_mounted": false
@@ -31,6 +34,7 @@
     "code": "dotnet-3",
     "image_name": "nahidacm/dotnet-3",
     "image_tags": ["2.0.0"],
+    "release_dates": {"2.0.0": "2026-10-01"},
     "php_versions": ["8.1", "8.3", "8.4"],
     "is_default": false,
     "is_mounted": false
@@ -40,6 +44,7 @@
     "code": "ecp-go-dev",
     "image_name": "nahidacm/ecp-go-dev",
     "image_tags": ["2.0.1", "1.2.0"],
+    "release_dates": {"2.0.1": "2026-09-27", "1.2.0": "2026-09-15"},
     "php_versions": ["8.1", "8.3", "8.4"],
     "is_default": false,
     "is_mounted": true
