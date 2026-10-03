@@ -4,14 +4,16 @@
 
 ## Free and powerful shared hosting solution
 
+EHM (Epic Hosting Manager) and ECP (Epic Control Panel) are free to install and use on as many of your own servers as you like, with unlimited accounts. They are free software but not open source: this repository publishes the compiled releases, not the source code. See `LICENSE.txt`.
+
 ### Highlights
 
 - Run any programming language on your shared server
-  -- Exmaple: NodeJS, Go,PHP, Python, Rust, Ruby, Java, C, C++ and many more.
+  -- Example: NodeJS, Go, PHP, Python, .NET, Rust, Ruby, Java and many more.
   -- Application wise language version selection.
-  -- Multiple PHP FPM versions. and application wise PHP version selection.
+  -- Multiple PHP versions (8.1, 8.3, 8.4 on OpenLiteSpeed) with per-application selection.
 - Run any database on your shared server
-  -- Exmaple: MySQL, PostgreSQL, MongoDB, Redis and many more.
+  -- MariaDB/MySQL, PostgreSQL, MSSQL and MongoDB built in, each account isolated to its own databases.
 - Per user resources allocation.
 - Can deploy application with zero server knowledge.
 - Visual application build and deploy.
@@ -29,28 +31,33 @@
 - Rich code editor.
 - Application logs.
 - Process manager.
-- Powerfullremote backup system.
-  -- Backup to any storage provider.
+- Encrypted off-site backups with storage.bd.
+- Managed WordPress hosting.
+- Import sites from cPanel.
+- Billing integration API (WHMCS-style).
 - Cron Jobs.
 - Account specific PHP INI configurations.
-- Account specific Nginx configurations.
 - System logs.
 
 ### Requirements
 
-- OS: Ubuntu 24.04
-- Minimum RAM: 2GB
+- OS: Ubuntu 22.04 or 24.04
+- Minimum RAM: 4GB
 - Minimum CPU: 2 cores
 - Minimum Disk: 10GB
+- Node.js 24 or newer
 
-### Minimal Installation
+### Installation
+
+Complete step-by-step guide: https://docs.ecpanel.io/install-in-a-fresh-server
 
 **Install Dependencies**
 
 - Docker: https://docs.ecpanel.io/ehm/docker-installation
 - NodeJS: https://docs.ecpanel.io/ehm/system-setup#install-nodejs-using-node-version-manager-nvm
 - Nginx: https://docs.ecpanel.io/ehm/nginx-installation
-- Eh manager: https://docs.ecpanel.io/eh-services/intro#download-source-codes
+- EH services: https://docs.ecpanel.io/eh-services/intro
+- EH manager: https://docs.ecpanel.io/eh-manager/eh-manager-instalation
 - Database: https://docs.ecpanel.io/eh-services/install-mariadb
 - PhpMyAdmin: https://docs.ecpanel.io/eh-services/install-phpmyadmin
 
@@ -72,7 +79,7 @@ node /epiclabs23/eh/ehm/<version>/ehm-api/prisma/create-admin.mjs
 Example:
 
 ```bash
-node /epiclabs23/eh/ehm/1.0.4/ehm-api/prisma/create-admin.mjs
+node /epiclabs23/eh/ehm/2.0.5/ehm-api/prisma/create-admin.mjs
 ```
 
 **Access EHM UI**
@@ -93,7 +100,9 @@ https://github.com/EpicLabs23/ecp-ehm-free/issues
 
 https://github.com/EpicLabs23/ecp-ehm-free/discussions
 
-### Installation and Customization
+### Paid support and services
+
+Installation, upgrades, support and customisation, plus hosting infrastructure, business email (coming soon), domains, security, SMS and storage.bd backups:
 
 Whatsapp: +8801670603332
 
