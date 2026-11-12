@@ -29,6 +29,12 @@ echo "[1/7] Installing quota package and kernel modules..."
 KERNEL_VERSION="$(uname -r)"
 apt-get update -qq
 apt-get install -y -qq quota "linux-modules-extra-${KERNEL_VERSION}" || true
+# quota_v2 lives in linux-modules-extra, which is per kernel version. Without a
+# meta package, the next kernel upgrade + reboot boots a kernel with no quota
+# module: quotaon.service fails and every account's quota silently stops being
+# enforced. linux-image-extra-virtual pulls modules-extra for each new kernel.
+apt-get install -y -qq linux-image-extra-virtual || \
+    echo "WARNING: could not install linux-image-extra-virtual; quotas will break after the next kernel upgrade unless linux-modules-extra-<new kernel> is installed." >&2
 
 # 2. Load quota kernel modules
 echo "[2/7] Loading kernel modules for quota..."
